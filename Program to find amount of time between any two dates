@@ -1,0 +1,5 @@
+import datetime
+# datetime(year,month,date,)
+a = datetime(2021,10,10)
+b = datetime(2021,10,12)
+diff = a-b
