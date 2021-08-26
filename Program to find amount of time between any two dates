@@ -1,5 +1,6 @@
 import datetime
-# datetime(year,month,date,)
-a = datetime(2021,10,10)
-b = datetime(2021,10,12)
-diff = a-b
+present = datetime.datetime(2021, 8, 24, 12, 0, 0)
+future = datetime.datetime(2021, 8, 26, 12, 0, 0)
+c = future - present
+minutes = c.total_seconds() / 60
+print("amount of time between",c,"is",minutes)
