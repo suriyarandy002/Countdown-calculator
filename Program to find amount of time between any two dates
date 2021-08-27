@@ -1,6 +1,6 @@
 import datetime
 present = datetime.datetime(2021, 8, 24, 12, 0, 0)
-future = datetime.datetime(2021, 8, 26, 12, 0, 0)
+future = datetime.datetime(2021, 8, 26, 11, 59, 0)
 c = future - present
 minutes = c.total_seconds() / 60
-print("amount of time between",c,"is",minutes)
+print("amount of time between given date is",c,"and total minutes are",minutes)
